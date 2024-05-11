@@ -11,7 +11,10 @@ font-family: "Playfair Display", serif;
 
     --primary-color: rgb(110, 103, 105);
 
-    --secondary-color: rgb(245, 241, 228);
+    --secondary-color: rgb(237, 111, 140);
+
+    --tertiary-color: rgb(245, 241, 230);
+
 }
 
 body {
@@ -42,15 +45,22 @@ h2{
 .hero h2 {
     font-family: var(--secondary-font);
     padding-left: 210px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     opacity: 0.7;
 }
 
 .btn-branding {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+   background-color: var(--secondary-color);
+   color: var(--tertiary-color);
     border-radius: 5px;
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
+    opacity: 0.8;
+}
+.btn-branding:hover {
+    background-image: url(/media/beige-background.png);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+
 }
