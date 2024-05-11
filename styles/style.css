@@ -1,19 +1,56 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 700
 
-.arimo-<uniquifier> {
-  font-family: "Arimo", sans-serif;
-
-.roboto-serif-<uniquifier> {
-  font-family: "Roboto Serif", serif;
-} */
+font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif; */
 
 :root {
-    --primary-font: "Roboto Serif", serif;
+    --primary-font: "Playfair Display", serif;
 
-    --secondary-font: "Arimo", sans-serif;
+    --secondary-font: "Poppins", sans-serif;
+
+    --primary-color: rgb(110, 103, 105);
+
+    --secondary-color: rgb(245, 241, 228);
+}
+
+body {
+    
 }
 
 h1 {
-    
+    font-family: var(--primary-font);
+    font-weight: normal;
+    font-size: 72px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.hero {
+    background-image: url(/media/beige-background.png);
+    text-align: center;
+    padding: 80px;
+}
+
+.hero h1 {
+    color: var(--primary-color);
+}
+
+.hero h2 {
+    font-family: var(--secondary-font);
+    padding-left: 210px;
+    color: var(--primary-color);
+    opacity: 0.7;
+}
+
+.btn-branding {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
 }
