@@ -39,6 +39,8 @@ h2{
     font-weight: normal;
     opacity: 0.8;
 }
+
+
 .container-width {
     width: 99.9%;
 }
@@ -116,11 +118,6 @@ h2{
 }
 
 
-footer {
-    padding: 20px;
-    border-top: 1px dotted var(--border-color);
-}
-
 .link-icons {
     text-align: center;
     font-size: 22px;
@@ -132,6 +129,11 @@ footer {
 .link-icons a visited {
     color: var(--primary-color);
 }
+.project-page-content {
+    border-top:1px dotted var(--border-color);
+    border-bottom:1px dotted var(--border-color); 
+}
+
 #about-me-content {
     border-top:1px dotted var(--border-color);
     border-bottom:1px dotted var(--border-color);
@@ -150,6 +152,12 @@ footer {
 
 #skill-icons {
     background-color: var(--border-color);
+}
+
+
+footer {
+    padding: 20px;
+    border-top: 1px dotted var(--border-color);
 }
 
 @media(max-width:900px) {
