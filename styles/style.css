@@ -30,6 +30,8 @@ h1 {
     font-family: var(--primary-font);
     font-weight: normal;
     font-size: 72px;
+    color: var(--primary-color);
+    text-align: center;
 }
 
 h2{
@@ -87,10 +89,6 @@ h2{
     border-top:1px dotted var(--border-color);
 }
 
-.hero h1 {
-    color: var(--primary-color);
-}
-
 .hero h2 {
     font-family: var(--secondary-font);
     padding-left: 210px;
@@ -133,6 +131,25 @@ footer {
 }
 .link-icons a visited {
     color: var(--primary-color);
+}
+#about-me-content {
+    border-top:1px dotted var(--border-color);
+    border-bottom:1px dotted var(--border-color);
+}
+
+#megan-image {
+    width: 450px;
+    border-radius: 5px;
+}
+
+.name {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: 300;
+}
+
+#skill-icons {
+    background-color: var(--border-color);
 }
 
 @media(max-width:900px) {
